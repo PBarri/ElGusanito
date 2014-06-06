@@ -2,9 +2,9 @@
     
     function conectarBD(){
     	
-		$host = 'localhost';
-		$usuario = 'root';
-		$password = "";
+		$host = 'mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/';
+		$usuario = 'admin72MGlSc';
+		$password = "QJpac8B71W_z";
 		$conexion = null;
 		
 		try{
