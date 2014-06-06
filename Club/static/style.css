@@ -1,0 +1,302 @@
+/*		ESTILOS GENERALES		*/
+body{
+	border-style: solid;
+	border-color: #0A0A2A;
+	border-width: 3px;
+}
+}
+div{
+	margin:0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+/*		CABECERA		*/       
+#header{
+	background-image: url("http://localhost/ABD/ElGusanito/image/borrador33333.jpg");
+	height: 170px;
+	width: 100%;
+	border-bottom-style: solid;
+	border-bottom-color: #0A0A2A;
+	border-bottom-width: 5px; 
+}
+/*		MENU		*/
+#buttons{
+	height: 35px;
+	background: #0A0A2A;
+	width: 100%;
+	
+}
+#menu-horizontal{
+	height: 30px;
+	width: 80%;
+	background: #0A0A2A;
+	margin-top: 0px;
+	padding-left: 0px;
+	margin-left:20%;	
+}
+/*HORIZONTAL*/
+#menu-horizontal li{
+	float:left;
+	display: inline-block;
+}
+/*OCULTAR SUBMENÚS*/
+#menu-horizontal ul {
+
+display: none;
+}
+#menu-horizontal ul li {
+display: block !important;
+}
+#menu-horizontal li:hover ul{
+display: none;
+
+}
+#menu-horizontal li:hover ul{
+display: block;
+position: absolute;
+}
+/*DISEÑO*/
+#menu-horizontal li {
+margin:0 1px;
+width:147px;
+min-height:25px;
+text-align:center;
+background:#2E9AFE;
+list-style:none;
+padding:2px 0;
+vertical-align: center;
+border-radius: 5px;
+
+}
+#menu-horizontal li:hover {
+	background:#C5014F;
+}
+#menu-horizontal li a {
+	font:bold 11px Arial, Helvetica, sans-serif;
+	color: white;
+	text-decoration:none;
+}
+#menu-horizontal li ul li{
+	float:none;
+	width:147px;
+	background-color: #2E9AFE;
+	
+}
+#submenu{
+	margin-top: 8px;
+	margin-left: -41px;
+	
+}
+/*		PANEL IZQUIERDA		*/
+#navigation{
+	background: #0A0A2A;
+	height:  700px;
+	width: 20%;	
+	float:left;
+}
+div.menu_lateral{
+	
+	margin-left: 15%;
+	color: white;
+	width: 70%;
+	border: thin white solid;
+	padding-top: 4px;
+	padding-bottom: 8px;
+	text-align: center;
+	border-radius: 10px;
+}
+div.menu_lateral2{
+	margin-left: 10%;
+	color: white;
+	width: 70%;
+	text-align: center;
+	
+	
+/*		CONTENIDO		*/
+}#content{
+	background-color: #bbbbff;
+	height: 700px;
+	width: 80%;
+	margin-left: 20%;
+}
+#articulo{
+	height: 90%;
+	width: 97%;
+	overflow: auto;
+	padding-top: 30px;
+	padding-left: 30px;	
+}#imagenTenis, #imagenFutbol, #imagenEstatua {
+	float: right;
+	
+}#Futbol11, #Futbol7, #Baloncesto, #Padel, #Tenis{
+	float: right;
+	margin-top: 60px;
+	margin-right: 200px;
+}
+img.imagenInicio{
+	margin-left: 80px;
+	margin-top: 10px;
+/*		FOOTER	*/
+}#footer{
+	background: #0A0A2A;
+	color: white;
+	width: 100%;
+	text-align: left;
+	height: 50px;
+	vertical-align: middle;
+}
+#css{
+	border:0;
+	width:88px;
+	height:31px;
+	display:block;
+	float: right;
+}
+#copyright{
+	float:left;
+	padding-top: 15px;
+}
+h2{
+	text-decoration: underline;
+/*		INICIO DEL CSS DEL FORMULARIO		*/
+}fieldset{
+	border:none;
+}
+input,select{
+	border : 1px solid black;
+	font-weight: bold;
+	height: 1.5em;
+	-webkit-border-radius: 5px;  /* Chrome y Safari */
+	-moz-border-radius: 5px;  /* Mozilla */
+	border-radius: 5px;
+}
+input:focus{
+	background-color: #e1e1e1;
+}
+input:hover{
+	background-color: #e1e1e1;
+}
+label{
+	font-weight: bold;
+}
+#div_submit{
+	text-align: center;
+}
+div.datos{
+	margin-bottom: 0.5em;
+}
+label.datos{
+	display: block;
+	float: left;
+	padding-right: 0.7em;
+	text-align: right;
+	width:10em;
+}
+input#dni{
+	width: 6em;
+}
+input#letra{
+	width: 1em;
+}
+input#apellido1,#apellido2{
+	width: 15em;
+	margin-right: 1em;
+}
+input#nombre,#email1,#email2{
+	width: 15em;
+}
+
+/* Para el boton de submit */
+
+button.submit{
+	width: 150px;
+	height: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	-webkit-border-radius : 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/* Para los errores */
+
+div.error{
+	color :red;
+	border : 2px solid red;
+	padding:10px;
+	margin:10px;
+}
+input.error{
+	font-weight: bold;
+	/* Sombra roja para los fallos */
+	-webkit-box-shadow: 0px 0px 4px red;
+	-moz-box-shadow: 0px 0px 4px red;
+	box-shadow: 0px 0px 4px red;
+}
+
+/* Para los exitos */
+
+input.exito{
+	/* Sombra verde para los exitos */
+	-webkit-box-shadow: 0px 0px 4px green;
+	-moz-box-shadow: 0px 0px 4px green;
+	box-shadow: 0px 0px 4px green;
+	font-weight: bold;
+}
+
+/*		FIN DEL CSS DEL FORMULARIO		*/
+/* Para Formulario Contacto */
+#divContactar{
+	float: left;
+}
+#divMensaje{
+	float: right;
+}
+input#persona,#correo,#asunto{
+	width: 30em;
+	padding: 3px;
+}
+#labelPersona,#labelCorreo,#labelAsunto,#labelMensaje{
+	display: block;
+	padding: 3px;
+}
+#divEnviar{
+	text-align: center;
+}
+button#enviar{
+	width: 100px;
+	height: 30px;
+	-webkit-border-radius : 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+td{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#submitlogin{
+	background-color:#2E9AFE;
+	color:white;
+}
+#fecha_calendario{
+	display:none;
+}
+#datepicker{
+	width : 17em;
+}
+select.list{
+	width:17em;	
+}
+#div_Reservar{
+	text-indent: 10em;
+}
+span.ult_noticias{
+	text-decoration:underline;
+}
+#reservas{
+	color:#00ffff;
+}
